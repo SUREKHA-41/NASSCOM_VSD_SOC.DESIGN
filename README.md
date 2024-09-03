@@ -11,9 +11,13 @@
  
  3.Floor and Power Planning: Comprehended the significance of floor planning in chip partitioning and the placement of I/O pads.
  DAY 1
- The RTL to GDSII flow in VLSI design involves transforming an RTL description of a digital circuit into a physical layout ready for fabrication. This comprehensive process includes stages such as RTL synthesis, floor planning, placement, routing, and generating the GDSII file format, which holds the layout data. Each step is meticulously carried out to ensure the final IC layout accurately represents the desired functionality and complies with fabrication requirements.
+--> The RTL to GDSII flow in VLSI design involves transforming an RTL description of a digital circuit into a physical layout ready for fabrication. This comprehensive process includes stages such as RTL synthesis, floor planning, placement, routing, and generating the GDSII file format, which holds the layout data. Each step is meticulously carried out to ensure the final IC layout accurately represents the desired functionality and complies with fabrication requirements.
  
  ![ASIC-Design-Flow-400x400](https://github.com/user-attachments/assets/6a83406d-c216-48f7-aa6c-29cebd9a7952)
+ 
+-->n VLSI (Very Large Scale Integration), the “Y chart” is a graphical representation that illustrates the connections between the design, fabrication, and testing processes in semiconductor manufacturing. It is called the “Y chart” because its shape resembles the letter “Y”.
+
+![image](https://github.com/user-attachments/assets/6a5e25aa-bb67-494d-b983-addcdbce8f02)
 
 DAY 1  BEGINNING OF OPEN-SOURCE EDA, OPENLANE AND SKY130 PDK
 Introduction to QFN-48 Package, chip, pads, core, die and IPs

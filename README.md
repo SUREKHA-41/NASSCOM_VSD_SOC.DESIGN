@@ -1,8 +1,9 @@
 # NASSCOM_VSD_SOC.DESIGN
-        Digital VLSI SoC Design and Planning Workshop
+  Digital VLSI SoC Design and Planning Workshop
         Welcome to the OpenLane workshop! In this session, we will explore the journey of designing an Application Specific Integrated Circuit (ASIC) using the OpenLane ASIC flow. We’ll start from the Register Transfer Level (RTL) and work our way to generating the Graphical Data System (GDS) file. This process involves several crucial steps, beginning with an RTL file and ending with a GDS file.
 
  Mastering the RTL to GDS Flow:
+ 
  1.Acquired a thorough understanding of the entire process of converting a high-level hardware description into a physical ASIC layout. Recognized the critical importance of each step in the flow, from synthesis 
    to sign-off.
    

@@ -5,10 +5,13 @@
  Mastering the RTL to GDS Flow:
  1.Acquired a thorough understanding of the entire process of converting a high-level hardware description into a physical ASIC layout. Recognized the critical importance of each step in the flow, from synthesis 
    to sign-off.
+   
  2.Synthesis:Learned how RTL is transformed into a gate-level netlist using standard cell libraries. Identified the various views of cells, including Liberty, HDL, SPICE, and MAGIC Layout.
+ 
  3.Floor and Power Planning: Comprehended the significance of floor planning in chip partitioning and the placement of I/O pads.
  DAY 1
  The RTL to GDSII flow in VLSI design involves transforming an RTL description of a digital circuit into a physical layout ready for fabrication. This comprehensive process includes stages such as RTL synthesis, floor planning, placement, routing, and generating the GDSII file format, which holds the layout data. Each step is meticulously carried out to ensure the final IC layout accurately represents the desired functionality and complies with fabrication requirements.
+ 
  ![ASIC-Design-Flow-400x400](https://github.com/user-attachments/assets/6a83406d-c216-48f7-aa6c-29cebd9a7952)
 
 DAY 1  BEGINNING OF OPEN-SOURCE EDA, OPENLANE AND SKY130 PDK

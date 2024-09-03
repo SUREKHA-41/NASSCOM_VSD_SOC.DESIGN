@@ -43,6 +43,10 @@ The chip, also known as the integrated circuit (IC), is the heart of the QFN-48 
 
 ![die](https://github.com/user-attachments/assets/85e1091a-fe22-4c75-acd6-323d74e9fe6c)
 
+
+![ips](https://github.com/user-attachments/assets/60fb3f2d-a412-4191-81a4-dd960d94fd0b)
+
+
 2. Pads Pads are the contact points on the chip where electrical connections are made. In the QFN-48 package, these pads are located on the bottom and connect the chip to the printed circuit board (PCB), ensuring electrical connectivity and mechanical stability.
 
 3. Core The core is the central part of the chip where the main functional blocks are located, including logic gates, memory cells, and other essential components.
@@ -57,8 +61,32 @@ Thermal Performance: Efficient heat dissipation due to the exposed pad.
 Electrical Performance: Low inductance and resistance.
 Reliability: Leadless design reduces the risk of bent leads.
 
+Introduction to RISC-V 
+RISC-V (pronounced as risk five) is an open standard Instruction Set Architecture (ISA) based on Reduced Instruction Set Computing (RISC) computer architecture. Unlike proprietary ISAs, RISC-V is freely available to the public and is being used for many purposes, including designing, manufacturing, and selling customized RISC-V chips and software. This open standard approach has the potential to drive innovation and competition in the tech industry, as it allows for a greater diversity of products and solutions.
+
+The significance of RISC-V in the context of modern computing cannot be overstated. As the tech industry is evolving, the need for efficient, scalable, and customizable computing solutions is more important than ever. RISC-V, with its simple and modular design, is well-positioned to meet these needs. Furthermore, as an open ISA, RISC-V has the potential to democratize access to high-performance computing, making it a key player in the future of the tech industry.
+
+![risc v](https://github.com/user-attachments/assets/4b93efcf-210a-4ba4-a0cd-e10e830d4f86)
 
 
+ISA (Instruction Set Architecture)
+
+To run a C program on a specific hardware layout, such as the chip inside your laptop, a particular sequence of steps must be followed. First, the C program is compiled into its assembly language equivalent, which in this case is the RISC-V ISA (Reduced Instruction Set Computing - V Instruction Set Architecture). Next, this assembly language program is translated into machine language, consisting of binary code (0s and 1s) that the computer hardware can understand.
+
+Following this, the RISC-V specification is implemented using RTL (Register Transfer Level), a type of Hardware Description Language. Finally, the process from RTL to the physical layout of the chip follows a standard PnR (Place and Route) or RTL to GDSII flow. 
+
+From Software Applications to Hardware
+In our daily lives, we use application software (apps) to interact with hardware. But how does this process work? Between the application software and the hardware is a layer called system software. The applications send their instructions to the system software, which then converts them into binary language, the language that hardware understands.
+
+System software is made up of several layers:
+
+  ![software to hardware](https://github.com/user-attachments/assets/53c05a22-6ecd-4199-a156-80081215b44b)
+
+--> Operating System (OS): Besides managing tasks like input/output operations, memory allocation, and other low-level system functions, the OS translates application software into code written in languages like C, C++, or Java.
+
+--> Compiler: The compiler then takes this code from the OS and converts it into an instruction set (such as .exe files). These instructions are customized for the specific hardware in use.
+
+--> Assembler: Finally, the assembler translates these executable files into binary language, which the hardware can understand and execute to carry out the desired operation
 
 
 

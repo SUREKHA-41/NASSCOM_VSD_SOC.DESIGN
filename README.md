@@ -107,25 +107,31 @@ Examples:
 Yosys: Synthesis tool.
 OpenROAD: Physical design tool.
 Magic: VLSI layout tool.
+
 4. Process Design Kit (PDK)
 Role: Provides the necessary files to model a fabrication process.
 
 Example: Google SkyWater 130nm PDK.
+
 5. Open-Source Tools
 Nature: Freely available and modifiable tools.
+
 Examples:
 OpenLane: Automated RTL-to-GDSII flow.
 Qflow: Digital synthesis flow.
+
 6. Verification
 Objective: Ensure the design meets specifications and functions correctly.
 
 Tools:
 Cocotb: Python-based testbench framework.
 Verilator: Verilog simulator.
+
 7. Fabrication
 Process: Manufacturing the physical IC.
 
 Example: Google SkyWater 130nm process.
+
 8. Community and Collaboration
 Importance: Engaging with the community for support and collaboration.
 Platforms: GitHub, forums, and mailing lists.

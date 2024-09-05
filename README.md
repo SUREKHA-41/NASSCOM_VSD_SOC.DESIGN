@@ -94,6 +94,7 @@ OpenLane is an automated flow that takes you from RTL (Register Transfer Level) 
 
 1. RTL Design
 Description: Defines the logic and behavior of the digital circuit.
+
 Languages: Verilog and VHDL are commonly used.
 
 ![openlane](https://github.com/user-attachments/assets/665600ec-f029-46d7-a3ee-9ffc2ce0c443)
@@ -101,12 +102,14 @@ Languages: Verilog and VHDL are commonly used.
 
 3. EDA Tools
 Purpose: Facilitate the design, simulation, and verification of ICs.
+
 Examples:
 Yosys: Synthesis tool.
 OpenROAD: Physical design tool.
 Magic: VLSI layout tool.
 4. Process Design Kit (PDK)
 Role: Provides the necessary files to model a fabrication process.
+
 Example: Google SkyWater 130nm PDK.
 5. Open-Source Tools
 Nature: Freely available and modifiable tools.
@@ -115,11 +118,13 @@ OpenLane: Automated RTL-to-GDSII flow.
 Qflow: Digital synthesis flow.
 6. Verification
 Objective: Ensure the design meets specifications and functions correctly.
+
 Tools:
 Cocotb: Python-based testbench framework.
 Verilator: Verilog simulator.
 7. Fabrication
 Process: Manufacturing the physical IC.
+
 Example: Google SkyWater 130nm process.
 8. Community and Collaboration
 Importance: Engaging with the community for support and collaboration.

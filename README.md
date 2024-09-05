@@ -1,4 +1,4 @@
-OpenLane: Key Components in Open-Source Digital ASIC Design# NASSCOM_VSD_SOC.DESIGN
+# NASSCOM_VSD_SOC.DESIGN
   Digital VLSI SoC Design and Planning Workshop
         Welcome to the OpenLane workshop! In this session, we will explore the journey of designing an Application Specific Integrated Circuit (ASIC) using the OpenLane ASIC flow. We’ll start from the Register Transfer Level (RTL) and work our way to generating the Graphical Data System (GDS) file. This process involves several crucial steps, beginning with an RTL file and ending with a GDS file.
 
@@ -87,6 +87,44 @@ System software is made up of several layers:
 --> Compiler: The compiler then takes this code from the OS and converts it into an instruction set (such as .exe files). These instructions are customized for the specific hardware in use.
 
 --> Assembler: Finally, the assembler translates these executable files into binary language, which the hardware can understand and execute to carry out the desired operation
+
+OpenLane: Key Components in Open-Source Digital ASIC Design
+
+OpenLane is an automated flow that takes you from RTL (Register Transfer Level) design to GDSII (the final layout format for ICs). It integrates several open-source tools and components to streamline the ASIC design process. Here are the main components involved:
+
+1. RTL Design
+Description: Defines the logic and behavior of the digital circuit.
+Languages: Verilog and VHDL are commonly used.
+
+![openlane](https://github.com/user-attachments/assets/665600ec-f029-46d7-a3ee-9ffc2ce0c443)
+
+
+3. EDA Tools
+Purpose: Facilitate the design, simulation, and verification of ICs.
+Examples:
+Yosys: Synthesis tool.
+OpenROAD: Physical design tool.
+Magic: VLSI layout tool.
+4. Process Design Kit (PDK)
+Role: Provides the necessary files to model a fabrication process.
+Example: Google SkyWater 130nm PDK.
+5. Open-Source Tools
+Nature: Freely available and modifiable tools.
+Examples:
+OpenLane: Automated RTL-to-GDSII flow.
+Qflow: Digital synthesis flow.
+6. Verification
+Objective: Ensure the design meets specifications and functions correctly.
+Tools:
+Cocotb: Python-based testbench framework.
+Verilator: Verilog simulator.
+7. Fabrication
+Process: Manufacturing the physical IC.
+Example: Google SkyWater 130nm process.
+8. Community and Collaboration
+Importance: Engaging with the community for support and collaboration.
+Platforms: GitHub, forums, and mailing lists.
+
 
 
 

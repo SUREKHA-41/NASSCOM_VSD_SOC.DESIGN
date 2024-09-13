@@ -134,6 +134,7 @@ Example: Google SkyWater 130nm process.
 
 8. Community and Collaboration
 Importance: Engaging with the community for support and collaboration.
+
 Platforms: GitHub, forums, and mailing lists.
 
 
